@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./cloud-fog2.svg">
+    <h1>Weather App</h1>
+    <div class="header">
+    <form onsubmit="getWeather();return false">
+        <label for="city">
+            Enter your City Name:
+        </label>
+        <br>
+        <input type="text" name="city" id="cityName">
+    </form>
+    <h4 id="city"></h4>
+    <h4 id="title"></h4>
+    <h4 id="country"></h4>
+    <h4 id="humidity"></h4>
+    <h4 id="wind"></h4>
+    <h4 id="minTemp"></h4>
+    <h4 id="maxTemp"></h4>
+    <h4 id="pressure"></h4>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    background-color: #c2e8e9;
+    text-align: center;
+    background-image: url('wether.jpg');
+}
+.header{
+    text-align: center;
+    background-image: url('pretty.avif');
+    padding: 5em;
+    margin-top: 5em;
+    margin-left: 32em;
+    margin-right: 32em;
+}
+h1{
+    margin-top: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 4em;
+}
