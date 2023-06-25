@@ -1,3 +1,4 @@
+alert("This website is responsive for all screen sizes");
 window.getWeather();
 function getWeather() {
 

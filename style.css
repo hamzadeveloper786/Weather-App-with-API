@@ -1,9 +1,10 @@
-body{
+body {
     background-color: #c2e8e9;
     text-align: center;
     background-image: url('wether.jpg');
 }
-.header{
+
+.header {
     text-align: center;
     background-image: url('pretty.avif');
     padding: 5em;
@@ -11,10 +12,153 @@ body{
     margin-left: 32em;
     margin-right: 32em;
 }
-h1{
+
+h1 {
     margin-top: 0em;
     font-family: Arial, Helvetica, sans-serif;
 }
-img{
+
+img {
     width: 4em;
+}
+
+.styling {
+    color: rgb(224, 151, 54);
+    border: 2px solid rgb(136, 214, 219);
+    border-left: 5px solid rgb(70, 70, 207);
+    border-radius: 0.4em;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        text-align: center;
+        background-image: url('pretty.avif');
+        padding: 3em;
+        margin-top: 5em;
+        margin-left: 20em;
+        margin-right: 20em;
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    input {
+        border-radius: 0.4em;
+        border: 2px solid blue;
+        background-color: #c2e8e9;
+    }
+
+    .styling {
+        color: rgb(224, 151, 54);
+        border: 2px solid rgb(136, 214, 219);
+        border-left: 5px solid rgb(70, 70, 207);
+        border-radius: 0.4em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        text-align: center;
+        background-image: url('pretty.avif');
+        padding: 3em;
+        margin-top: 5em;
+        margin-left: 12em;
+        margin-right: 12em;
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    input {
+        border-radius: 0.4em;
+        border: 2px solid blue;
+        background-color: #c2e8e9;
+    }
+
+    .styling {
+        color: rgb(224, 151, 54);
+        border: 2px solid rgb(136, 214, 219);
+        border-left: 5px solid rgb(70, 70, 207);
+        border-radius: 0.4em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+        text-align: center;
+        background-image: url('pretty.avif');
+        padding: 3em;
+        margin-top: 5em;
+        margin-left: 5em;
+        margin-right: 5em;
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    input {
+        border-radius: 0.4em;
+        border: 2px solid blue;
+        background-color: #c2e8e9;
+    }
+
+    .styling {
+        color: rgb(224, 151, 54);
+        border: 2px solid rgb(136, 214, 219);
+        border-left: 5px solid rgb(70, 70, 207);
+        border-radius: 0.4em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header {
+        text-align: center;
+        background-image: url('pretty.avif');
+        padding: 3em;
+        margin-top: 5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    input {
+        border-radius: 0.4em;
+        border: 2px solid blue;
+        background-color: #c2e8e9;
+    }
+
+    .styling {
+        color: rgb(224, 151, 54);
+        border: 2px solid rgb(136, 214, 219);
+        border-left: 5px solid rgb(70, 70, 207);
+        border-radius: 0.4em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header {
+        text-align: center;
+        background-image: url('pretty.avif');
+        padding: 3em;
+        margin-top: 5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    input {
+        border-radius: 0.4em;
+        border: 2px solid blue;
+        background-color: #c2e8e9;
+    }
+
+    .styling {
+        color: rgb(224, 151, 54);
+        border: 2px solid rgb(136, 214, 219);
+        border-left: 5px solid rgb(70, 70, 207);
+        border-radius: 0.4em;
+    }
 }
