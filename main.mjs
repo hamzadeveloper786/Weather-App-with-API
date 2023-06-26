@@ -9,7 +9,7 @@ function getWeather() {
 
     //Getting request through api example
 
-    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
         .then(function (response) {
             // handle success
             console.log(response.data);
